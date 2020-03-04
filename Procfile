@@ -1,1 +1,1 @@
-worker: python botname.py
+worker: python cyraxx.py

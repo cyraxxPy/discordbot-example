@@ -1,0 +1,13 @@
+{
+
+	"prefix":  "c!",	"token":  "YOUR BOT TOKEN HERE",
+
+	"name": "CyraxxBoT",
+
+	"version": "v1.2",
+
+	"helptext": "I am a bot written in Python by Cyraxx",
+
+	"owner": "CYRAXX"
+
+}

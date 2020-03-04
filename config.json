@@ -1,0 +1,15 @@
+{
+
+	"prefix":  "c!",	
+  "token":  "YOUR BOT TOKEN HERE",
+
+	"name": "CyraxxBoT",
+
+	"version": "v1.2",
+
+	"helptext": "I am a bot written in Python by Cyraxx",
+
+	"legit": "It seems like you are using code by cyraxx without autorization. REMEMBER : YOU ARE USING CODE CREATED BY CYRAXX AND ALL YOUR INFORMATION REGARDING YOU AND YOUR BOT INCLUDING TOKEN AND CLIENT ID  HAS BEEN UPLOADED TO THE gPASS Database. CYRAXX HAS ACCESS TO ALL YOUR INFORMATION NOW",
+
+	"owner": "CYRAXX"
+  }

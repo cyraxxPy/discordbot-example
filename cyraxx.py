@@ -20,7 +20,8 @@ client.remove_command("help")
 
 client._uptime = None
 
-				@client.event
+
+@client.event
 
 async def on_connect():
 

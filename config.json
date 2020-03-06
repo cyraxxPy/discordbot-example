@@ -1,6 +1,8 @@
 {
 
-	"prefix":  "c!",	"token":  "YOUR BOT TOKEN HERE",
+	"prefix":  "c!",
+        
+        "token":  "YOUR BOT TOKEN HERE",
 
 	"name": "CyraxxBoT",
 

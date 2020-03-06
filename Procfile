@@ -1,1 +1,1 @@
-worker: python cyraxx.py
+worker: python cyraxxbot.py

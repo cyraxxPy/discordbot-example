@@ -5,6 +5,7 @@ from discord.ext import commands
 #OTHER-IMPORTS
 import json
 import time
+import random
 import datetime
 
 config = json.load(open('config.json'))

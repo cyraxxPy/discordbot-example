@@ -42,14 +42,13 @@ async def on_ready():
 @client.event
 async def on_message(message):
 
-    await client.process_commands(message)
-
     if message.author == client.user:
         return
 
     if message.author == message.author.bot:
             return
 
+    await client.process_commands(message)
             
     if re.match(f"^<@!?{client.user.id}>$", message.content):
         msg = f"""

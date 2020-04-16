@@ -21,13 +21,12 @@
 
 # Overview
 
-[x] 📚 A Simple example of hosting python on Heroku.com
+* 📚 A template for discord.py bots
 
-[x] 🌀 For furthur contact: https://discord.gg/A8ek2Rv
+* 🌀 Support Server: (https://discord.gg/A8ek2Rv)
 
-[x] 💠Instagram: www.instagram.com/cyraxx_pubg
+* 💠 Instagram: (https://www.instagram.com/cyraxx_pubg)
 
-[x] FEEL FREE TO CONTACT ME IF YOU FACE ANY ISSUES.
+* FEEL FREE TO CONTACT ME IF YOU FACE ANY ISSUES.
 
-:peace:
 ✌

@@ -44,7 +44,17 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    if message.author == message.author.bot:
+            return
+
     await client.process_commands(message)
+            
+    if re.match(f"^<@!?{client.user.id}>$", message.content):
+        msg = f"""
+        **My Prefix here is**   `{botprefix}`
+        """
+        return await message.channel.send(msg)
+
 
 @client.command(usage="A simple hi command", aliases=["aliases", "example"])
 async def hi(ctx):    
@@ -89,11 +99,15 @@ async def on_guild_join(guild):
    em.add_field(name=f"CyraxxBoT", value=f"""**Hey! CyraxxBoT is here. I am ready to revive  your server: __{guild.name}__ with an id of: __{guild.id}__.
 Server has:- 
 __{len(guild.channels)} channels__
-__{len(guild.roles)} roles__**""")
-   em.add_field(name=f"Prefix:", value=f"My Prefix is `{config['prefix']}`")
+__{len(guild.roles)} roles__**""", inline=False)
+   em.add_field(name=f"Prefix:", value=f"My Prefix is `{config['prefix']}`", inline=False)
    em.add_field(name=f"About Me", value=f"""**I am a Multipurpose discord-bot for your needs which includes __Music, Moderation, Fun, Memes, Utility and also for other stuffs__, coded by `YourName` or Cyraxx.
-My support server: (https://discord.gg/HKtQmtj)**""")
-   await owner.send(embed=em)
+My support server: (https://discord.gg/HKtQmtj)**""", inline=False)
+   try:
+      await owner.send(embed=em)
+   except Exception as e:
+      print(e)
+      pass
 
 ##A vey nice embed simple help command example
 @client.command()

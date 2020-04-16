@@ -110,7 +110,7 @@ My support server: (https://discord.gg/HKtQmtj)**""", inline=False)
       print(e)
       pass
 
-##A vey nice embed simple help command example
+##A very nice embed simple help command example
 @client.command()
 async def help(ctx):
     help= "**"

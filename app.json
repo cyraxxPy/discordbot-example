@@ -1,0 +1,7 @@
+{
+  "name": "Discord bot sample",
+  "description": "A template for discord.py bots hosting on heroku",
+  "repository": "https://github.com/cyraxxop/discordbot-example",
+  "logo": "https://avatars3.githubusercontent.com/u/47707577?s=400&u=fcaf05c2fbf034c814691754ab07f4bd7cec593d&v=4",
+  "keywords": ["python", "discord.py", "bots"]
+}

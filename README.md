@@ -1,10 +1,10 @@
 <h1 align="center">
   <br>
-  Discord.py bot example lmao
+  Discord.py-Bot example lmao
   <br>
 </h1>
 
-<h4 align="center">Can be deployed on heroku!</h4>
+<h4 align="center">Can be deployed to heroku!</h4>
 
 <p align="center">
   </a>
@@ -21,11 +21,8 @@
 
 # Overview
 
-* 📚 A template for discord.py bots
-
-* 🌀 Support Server: (https://discord.gg/A8ek2Rv)
-
-* 💠 Instagram: (https://www.instagram.com/cyraxx_pubg)
+> Support Server: (https://discord.gg/HKtQmtj)
+> Instagram: (https://www.instagram.com/cyraxx.py)
 
 * FEEL FREE TO CONTACT ME IF YOU FACE ANY ISSUES.
 

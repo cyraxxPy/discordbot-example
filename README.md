@@ -21,9 +21,8 @@
 
 # Overview
 
-> [Support Server](https://discord.gg/HKtQmtj)
-> [Instagram](https://www.instagram.com/cyraxx.py)
+* [Support Server](https://discord.gg/HKtQmtj)
+* [Instagram](https://www.instagram.com/cyraxx.py)
 
-* FEEL FREE TO CONTACT ME IF YOU FACE ANY ISSUES.
+- Feel Free To Contact Me If You Face Any Issues.
 
-✌
